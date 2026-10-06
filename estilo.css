@@ -38,7 +38,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--amber);outline-offs
 
 /* estúdio */
 .studio{padding-top:36px;padding-bottom:56px}
-.studio h1{font:600 clamp(30px,4.6vw,50px)/1.08 var(--brand);margin:0 0 14px;max-width:20ch;text-wrap:balance}
+.studio h1{font:600 clamp(30px,4.6vw,50px)/1.08 var(--brand);margin:0 0 14px;max-width:22ch;text-wrap:balance}
 .studio p{margin:0;max-width:60ch;color:var(--muted);font-size:18px}
 
 /* ===== Klanka ===== */
