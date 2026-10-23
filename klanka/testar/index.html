@@ -28,12 +28,19 @@
   .langs { display: flex; gap: 8px; margin: 0 0 18px; }
   .langs a { background: var(--panel); color: var(--text); text-decoration: none; padding: 6px 14px; border-radius: 10px; font-size: 15px; }
   section + section { margin-top: 56px; padding-top: 32px; border-top: 1px solid var(--line); }
+  .outro { display: flex; align-items: center; gap: 14px; background: #0f1426; border: 1px solid #2a6b62; border-radius: 16px; padding: 12px 14px; margin: 0 0 20px; color: #e8ebf5; text-decoration: none; }
+  .outro img { width: 52px; height: 52px; border-radius: 12px; flex: none; }
+  .outro b { display: block; color: #48ffd1; font-size: 17px; }
+  .outro span { display: block; color: #a3abc2; font-size: 15px; line-height: 1.35; }
+  .outro:hover { border-color: #48ffd1; }
 </style>
 </head>
 <body>
 <main>
   <h1>Seja testador do Klanka</h1>
   <p class="meta"><a href="/">Tescarium Games</a> · grátis · Android</p>
+  <!-- Aviso para quem chega pelo link do Instagram (2026-10-23): o Facetra também está em teste. -->
+  <a class="outro" href="/facetra/testar/"><img src="/img/facetra-icone.png" alt="" width="52" height="52"><div><b>O Facetra também está em teste →</b><span>Nave néon e chefes gigantes. Seja testador / become a tester. Todos os jogos em tescarium.github.io</span></div></a>
   <nav class="langs" aria-label="Idioma / Language"><a href="#pt" lang="pt-BR">Português</a><a href="#en" lang="en">English</a></nav>
   <img class="arte" src="../arte.png" alt="Klanka: braço mecânico montado na chapa, com três estrelas">
   <section id="pt" lang="pt-BR">
